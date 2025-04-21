@@ -1,0 +1,10 @@
+/home/vasista/drone_racing_ros2_ws/build/tello_gazebo/CMakeFiles/install/strip.dir
+/home/vasista/drone_racing_ros2_ws/build/tello_gazebo/CMakeFiles/install/local.dir
+/home/vasista/drone_racing_ros2_ws/build/tello_gazebo/CMakeFiles/install.dir
+/home/vasista/drone_racing_ros2_ws/build/tello_gazebo/CMakeFiles/list_install_components.dir
+/home/vasista/drone_racing_ros2_ws/build/tello_gazebo/CMakeFiles/rebuild_cache.dir
+/home/vasista/drone_racing_ros2_ws/build/tello_gazebo/CMakeFiles/edit_cache.dir
+/home/vasista/drone_racing_ros2_ws/build/tello_gazebo/CMakeFiles/test.dir
+/home/vasista/drone_racing_ros2_ws/build/tello_gazebo/CMakeFiles/TelloPlugin.dir
+/home/vasista/drone_racing_ros2_ws/build/tello_gazebo/CMakeFiles/tello_gazebo_uninstall.dir
+/home/vasista/drone_racing_ros2_ws/build/tello_gazebo/CMakeFiles/uninstall.dir

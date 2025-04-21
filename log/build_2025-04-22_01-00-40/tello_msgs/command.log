@@ -1,0 +1,6 @@
+Invoking command in '/home/vasista/drone_racing_ros2_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/vasista/drone_racing_ros2_ws/tello_ros/tello_msgs -DCMAKE_INSTALL_PREFIX=/home/vasista/drone_racing_ros2_ws/install/tello_msgs
+Invoked command in '/home/vasista/drone_racing_ros2_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/vasista/drone_racing_ros2_ws/tello_ros/tello_msgs -DCMAKE_INSTALL_PREFIX=/home/vasista/drone_racing_ros2_ws/install/tello_msgs
+Invoking command in '/home/vasista/drone_racing_ros2_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/vasista/drone_racing_ros2_ws/build/tello_msgs -- -j8 -l8
+Invoked command in '/home/vasista/drone_racing_ros2_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/vasista/drone_racing_ros2_ws/build/tello_msgs -- -j8 -l8
+Invoking command in '/home/vasista/drone_racing_ros2_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/vasista/drone_racing_ros2_ws/build/tello_msgs
+Invoked command in '/home/vasista/drone_racing_ros2_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/vasista/drone_racing_ros2_ws/build/tello_msgs
