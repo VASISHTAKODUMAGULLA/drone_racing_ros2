@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*.log
+
+# Jupyter Notebooks (optional)
+.ipynb_checkpoints/
+
+# ROS 2 build
+build/
+install/
+log/
+
+
+
+
+
+
+
+
