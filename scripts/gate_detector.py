@@ -107,7 +107,7 @@ class Mixin:
             self.searching = False
         else:
             self.curr_gate = None
-            self.gate_found = False
+            self.gate_found = Falsegate_detector.Mixin
             self.searching = True
 
         if self.curr_gate is not None:

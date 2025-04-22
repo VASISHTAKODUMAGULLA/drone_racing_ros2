@@ -7,14 +7,37 @@ from nav_msgs.msg import Odometry
 from cv_bridge import CvBridge
 
 import rclpy
-import _Camera as _Camera
+import gate_detector as gate_detector
 import _Flight as _Flight
-import _Utils as _Utils
+# import _Utils as _Utils
 import cv2 as cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
 
-class Drone(Node, _Camera.Mixin, _Flight.Mixin, _Utils.Mixin):
+matplotlib.use('Tkagg')
+
+
+class utility:
+
+    def plot(self):
+        # self.get_logger().info('Plotting')
+        plt.clf()
+        plt.ion()
+        if self.sim:
+            plt.plot([x[0] for x in self.trajectory_odom], [x[1] for x in self.trajectory_odom], label='ODOM')
+        else:
+            plt.plot([x[0] for x in self.trajectory_odom], [x[1] for x in self.trajectory_odom], label='ODOM')
+        plt.title('Trajectory')
+        plt.figure(1, figsize=(10, 10))
+        plt.xlabel('X')
+        plt.ylabel('Y')
+        plt.xlim([-10, 10])
+        plt.ylim([-10, 10])
+        plt.pause(0.001)
+
+
+class Drone(Node, gate_detector.Mixin, _Flight.Mixin, utility):
     def __init__(self, sim=False, *args, **kwargs):
         super().__init__(f'drone_{randint(0, 1000)}')
         qos_policy = rclpy.qos.QoSProfile(reliability=rclpy.qos.ReliabilityPolicy.BEST_EFFORT,
