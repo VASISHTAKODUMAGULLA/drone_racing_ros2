@@ -8,8 +8,7 @@ __pycache__/
 *.tmp
 *.log
 
-# Jupyter Notebooks (optional)
-.ipynb_checkpoints/
+
 
 # ROS 2 build
 build/
