@@ -1,8 +1,0 @@
-{
-  "package_name": "tello_msgs",
-  "non_idl_tuples": [
-    "/home/vasista/drone_racing_ros2_ws/tello_ros/tello_msgs:msg/FlightData.msg",
-    "/home/vasista/drone_racing_ros2_ws/tello_ros/tello_msgs:msg/TelloResponse.msg",
-    "/home/vasista/drone_racing_ros2_ws/tello_ros/tello_msgs:srv/TelloAction.srv"
-  ]
-}

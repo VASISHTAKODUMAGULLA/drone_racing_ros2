@@ -1,6 +1,0 @@
-Invoking command in '/home/vasista/drone_racing_ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/vasista/drone_racing_ros2_ws/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/vasista/drone_racing_ros2_ws/install/ros2_shared
-Invoked command in '/home/vasista/drone_racing_ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/vasista/drone_racing_ros2_ws/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/vasista/drone_racing_ros2_ws/install/ros2_shared
-Invoking command in '/home/vasista/drone_racing_ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/vasista/drone_racing_ros2_ws/build/ros2_shared -- -j8 -l8
-Invoked command in '/home/vasista/drone_racing_ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/vasista/drone_racing_ros2_ws/build/ros2_shared -- -j8 -l8
-Invoking command in '/home/vasista/drone_racing_ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/vasista/drone_racing_ros2_ws/build/ros2_shared
-Invoked command in '/home/vasista/drone_racing_ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/vasista/drone_racing_ros2_ws/build/ros2_shared
