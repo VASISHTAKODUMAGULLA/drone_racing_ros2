@@ -8,17 +8,15 @@
 3) Liu Jin yu
 
 
-`tello_gazebo` consists of several components:
-* `TelloPlugin` simulates a drone, handling takeoff, landing and very simple flight dynamics
-* `inject_entity.py` is a script that will read an URDF (ROS) or SDF (Gazebo) file and spawn a model in a running instance of Gazebo
-* the built-in camera plugin is used to emulate the Gazebo forward-facing camera
-
-
 ## Installation
 #### Install ROS2 Galactic
     https://docs.ros.org/ with the `ros-galactic-desktop` option.
 #### Make sure you have gazebo 
     sudo apt install gazebo11 libgazebo11 libgazebo11-dev
+`tello_gazebo` consists of several components:
+* `TelloPlugin` simulates a drone, handling takeoff, landing and very simple flight dynamics
+* `inject_entity.py` is a script that will read an URDF (ROS) or SDF (Gazebo) file and spawn a model in a running instance of Gazebo
+* the built-in camera plugin is used to emulate the Gazebo forward-facing camera
 #### Add the following
     sudo apt install libasio-dev
     sudo apt install ros-galactic-cv-bridge ros-galactic-camera-calibration-parsers 
