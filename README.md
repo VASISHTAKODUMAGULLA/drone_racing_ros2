@@ -1,5 +1,6 @@
 # `drone_racing_ros2`
 ## Running a Tello simulation in [Gazebo](http://gazebosim.org/)
+## Requirements are Ubuntu 20.04 and ROS2 Galactic
 
 `tello_gazebo` consists of several components:
 * `TelloPlugin` simulates a drone, handling takeoff, landing and very simple flight dynamics
