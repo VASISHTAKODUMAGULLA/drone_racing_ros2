@@ -142,7 +142,7 @@ class DroneRacing(Node):
                 self.get_logger().info('waiting for /tello_action…')
             self.takeoff()
 
-        # ─── control loop @30 Hz ───
+        # ─── control loop @20 Hz ───
         self.create_timer(1/20, self.control_loop)
 
     
