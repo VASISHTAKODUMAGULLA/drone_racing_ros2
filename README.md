@@ -44,7 +44,14 @@ If you run into the **No namespace found** error re-set `GAZEBO_MODEL_PATH`:
 
     export GAZEBO_MODEL_PATH=${PWD}/install/tello_gazebo/share/tello_gazebo/models
     source /usr/share/gazebo/setup.sh
-    
+#### In a second terminal 
+    source install/setup.bash
+    cd scripts
+    python3 simulation_drone_racing.py
+#### In a third terminal     
+    source install/setup.bash
+    rviz2 rviz
+    add the publshed image topic to see the gate images being published.
 
 #### Control the drone 
     ros2 service call /drone1/tello_action tello_msgs/TelloAction "{cmd: 'takeoff'}"
