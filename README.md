@@ -3,8 +3,6 @@
 
 `tello_gazebo` consists of several components:
 * `TelloPlugin` simulates a drone, handling takeoff, landing and very simple flight dynamics
-* `markers` contains Gazebo models for fiducial markers
-* `fiducial.world` is a simple world with a bunch of fiducial markers
 * `inject_entity.py` is a script that will read an URDF (ROS) or SDF (Gazebo) file and spawn a model in a running instance of Gazebo
 * the built-in camera plugin is used to emulate the Gazebo forward-facing camera
 
