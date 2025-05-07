@@ -50,7 +50,7 @@ If you run into the **No namespace found** error re-set `GAZEBO_MODEL_PATH`:
 #### In a third terminal     
     source install/setup.bash
     rviz2 rviz
-    add the publshed image topic to see the gate images being published.
+    add the published image topic with the name "gate_image_annotated" to see the gate images being published.
 
 #### you shall see something like this in the gazebo and also in the rviz tool
 
