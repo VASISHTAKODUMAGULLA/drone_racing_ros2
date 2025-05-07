@@ -143,7 +143,7 @@ class DroneRacing(Node):
             self.takeoff()
 
         # ─── control loop @30 Hz ───
-        self.create_timer(1/30, self.control_loop)
+        self.create_timer(1/20, self.control_loop)
 
     
     
