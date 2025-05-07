@@ -1,11 +1,11 @@
 # `drone_racing_ros2`
 ## Running a Tello simulation in [Gazebo](http://gazebosim.org/)
 ## Requirements are Ubuntu 20.04 and ROS2 Galactic
-## Contributions: TIERS Lab University of Turku for the environment setup and the drone injection
+## Contributions: TIERS Lab, University of Turku for the environment setup and the drone injection
 ## Group members: 
 1) Chathuranga Liyanage 
 2) Vasista Kodumagulla
-3) 3) Liu Jin yu
+3) Liu Jin yu
 
 
 `tello_gazebo` consists of several components:
